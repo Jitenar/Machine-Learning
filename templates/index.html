@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Machine Learning Learning Hub</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#f4f7fc;
+color:#333;
+}
+
+nav{
+position:fixed;
+top:0;
+width:100%;
+background:#0f172a;
+padding:15px 50px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+z-index:1000;
+}
+
+nav h2{
+color:white;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:25px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+font-size:15px;
+}
+
+.hero{
+height:100vh;
+background:linear-gradient(135deg,#2563eb,#7c3aed);
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:30px;
+color:white;
+}
+
+.hero h1{
+font-size:60px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+max-width:800px;
+margin:auto;
+}
+
+.btn{
+display:inline-block;
+margin-top:25px;
+padding:12px 30px;
+background:white;
+color:#2563eb;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+}
+
+section{
+padding:90px 10%;
+}
+
+.section-title{
+text-align:center;
+font-size:40px;
+margin-bottom:50px;
+color:#1e293b;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.timeline{
+border-left:4px solid #2563eb;
+padding-left:25px;
+}
+
+.timeline-item{
+margin-bottom:30px;
+}
+
+.timeline-item h3{
+color:#2563eb;
+}
+
+footer{
+background:#0f172a;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+.stats{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+.stat-box{
+background:white;
+padding:30px;
+text-align:center;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.stat-box h2{
+font-size:40px;
+color:#2563eb;
+}
+
+</style>
+
+</head>
+<body>
+
+<nav>
+<h2>ML Hub</h2>
+
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#history">History</a></li>
+<li><a href="#roadmap">Roadmap</a></li>
+<li><a href="#algorithms">Algorithms</a></li>
+<li><a href="#applications">Applications</a></li>
+<li><a href="#faq">FAQ</a></li>
+</ul>
+</nav>
+
+<section class="hero" id="home">
+
+<div>
+<h1>Machine Learning Learning Hub</h1>
+
+<p>
+Learn Machine Learning from basics to advanced concepts,
+understand algorithms, preprocessing, model evaluation,
+AutoML, and real-world AI applications.
+</p>
+
+<a href="#roadmap" class="btn">Start Learning</a>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Machine Learning Overview</h2>
+
+<div class="stats">
+
+<div class="stat-box">
+<h2>1959</h2>
+<p>Term Machine Learning Coined</p>
+</div>
+
+<div class="stat-box">
+<h2>100+</h2>
+<p>Popular Algorithms</p>
+</div>
+
+<div class="stat-box">
+<h2>10M+</h2>
+<p>ML Professionals Worldwide</p>
+</div>
+
+<div class="stat-box">
+<h2>$500B+</h2>
+<p>AI Market Projection</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="history">
+
+<h2 class="section-title">History of Machine Learning</h2>
+
+<div class="timeline">
+
+<div class="timeline-item">
+<h3>1950</h3>
+<p>Alan Turing introduced the Turing Test.</p>
+</div>
+
+<div class="timeline-item">
+<h3>1959</h3>
+<p>Arthur Samuel coined the term Machine Learning.</p>
+</div>
+
+<div class="timeline-item">
+<h3>1986</h3>
+<p>Backpropagation popularized Neural Networks.</p>
+</div>
+
+<div class="timeline-item">
+<h3>2012</h3>
+<p>Deep Learning revolutionized image recognition.</p>
+</div>
+
+<div class="timeline-item">
+<h3>2024+</h3>
+<p>Generative AI and Large Language Models dominate innovation.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="roadmap">
+
+<h2 class="section-title">Machine Learning Roadmap</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Step 1</h3>
+<p>Python Programming</p>
+</div>
+
+<div class="card">
+<h3>Step 2</h3>
+<p>Statistics & Probability</p>
+</div>
+
+<div class="card">
+<h3>Step 3</h3>
+<p>Linear Algebra</p>
+</div>
+
+<div class="card">
+<h3>Step 4</h3>
+<p>Data Analysis</p>
+</div>
+
+<div class="card">
+<h3>Step 5</h3>
+<p>Machine Learning</p>
+</div>
+
+<div class="card">
+<h3>Step 6</h3>
+<p>Deep Learning</p>
+</div>
+
+<div class="card">
+<h3>Step 7</h3>
+<p>MLOps & Deployment</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="algorithms">
+
+<h2 class="section-title">Popular Algorithms</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Linear Regression</h3>
+<p>Predict continuous values.</p>
+</div>
+
+<div class="card">
+<h3>Logistic Regression</h3>
+<p>Binary classification model.</p>
+</div>
+
+<div class="card">
+<h3>Decision Tree</h3>
+<p>Rule-based prediction model.</p>
+</div>
+
+<div class="card">
+<h3>Random Forest</h3>
+<p>Ensemble of multiple trees.</p>
+</div>
+
+<div class="card">
+<h3>Support Vector Machine</h3>
+<p>Powerful classification algorithm.</p>
+</div>
+
+<div class="card">
+<h3>Voting Classifier</h3>
+<p>Combines multiple models.</p>
+</div>
+
+<div class="card">
+<h3>Gradient Boosting</h3>
+<p>Strong ensemble learning method.</p>
+</div>
+
+<div class="card">
+<h3>Neural Networks</h3>
+<p>Foundation of Deep Learning.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Machine Learning Lifecycle</h2>
+
+<div class="grid">
+
+<div class="card">Problem Definition</div>
+<div class="card">Data Collection</div>
+<div class="card">Data Cleaning</div>
+<div class="card">Feature Engineering</div>
+<div class="card">Model Training</div>
+<div class="card">Evaluation</div>
+<div class="card">Deployment</div>
+<div class="card">Monitoring</div>
+
+</div>
+
+</section>
+
+<section id="applications">
+
+<h2 class="section-title">Applications of Machine Learning</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Healthcare</h3>
+<p>Disease prediction and diagnostics.</p>
+</div>
+
+<div class="card">
+<h3>Finance</h3>
+<p>Fraud detection and forecasting.</p>
+</div>
+
+<div class="card">
+<h3>E-Commerce</h3>
+<p>Recommendation systems.</p>
+</div>
+
+<div class="card">
+<h3>Cyber Security</h3>
+<p>Threat and anomaly detection.</p>
+</div>
+
+<div class="card">
+<h3>Transportation</h3>
+<p>Self-driving vehicles.</p>
+</div>
+
+<div class="card">
+<h3>Education</h3>
+<p>Personalized learning systems.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="faq">
+
+<h2 class="section-title">Frequently Asked Questions</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>What is Machine Learning?</h3>
+<p>A branch of AI that learns patterns from data.</p>
+</div>
+
+<div class="card">
+<h3>Do I need Mathematics?</h3>
+<p>Yes, statistics and linear algebra are important.</p>
+</div>
+
+<div class="card">
+<h3>Which language should I learn?</h3>
+<p>Python is the most popular choice.</p>
+</div>
+
+<div class="card">
+<h3>Can beginners learn ML?</h3>
+<p>Absolutely, start with Python and statistics.</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h2>Machine Learning Learning Hub</h2>
+
+<p>
+Built using Python, Flask and Modern Web Technologies
+</p>
+
+<br>
+
+<p>
+© 2026 Machine Learning Learning Hub
+</p>
+
+</footer>
+
+</body>
+</html>
